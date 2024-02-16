@@ -1,0 +1,151 @@
+body {
+  font-family: -webkit-body !important;
+}
+
+.textContainer {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  border-bottom: 4px solid #3498db !important;
+}
+@media (max-width: 320px) {
+  .lead-font {
+    font-size: 13px;
+  }
+}
+.textContainer:hover {
+  /* box-shadow: 0 4px #3498db; */
+  transform: translateY(-15px);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 28px;
+  margin: 0 10px;
+  color: #fff;
+}
+
+.navbar-expand-lg {
+  padding: 17px !important;
+  --bs-bg-opacity: 0;
+}
+
+.headname_style {
+  overflow: hidden;
+  border-right: 0.15em solid #00b4d9;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #00b4d9;
+  }
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: white;
+  font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-headTitle {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .header-container {
+    background: #00b4d9;
+    padding: 11px;
+    border-radius: 12px;
+  }
+  .headname_style {
+    font-size: 20px;
+  }
+}
+.nav-image {
+  background-size: cover;
+  height: 225px;
+  background-image: url("../images/profile.jpg");
+  width: -webkit-fill-available;
+  background-repeat: no-repeat;
+  border-radius: 68px;
+}
+.headSubTitle {
+  font-size: 15px;
+}
+@media (max-width: 767px) {
+  .big-screen-navber {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .small-screen-navber {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .nav-headTitle {
+    font-size: 12px;
+  }
+  .nav-headSubTitle {
+    font-size: 10px;
+  }
+  .nav-image {
+    height: 140px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 10px;
+  }
+  .nav-copyright {
+    font-size: 10px;
+  }
+}
+.background-white {
+  background: white;
+}
+@media (min-width: 650px) and (max-width: 1024px) {
+  .headname_style {
+    font-size: 50px;
+  }
+}

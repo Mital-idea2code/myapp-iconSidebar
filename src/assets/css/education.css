@@ -1,0 +1,28 @@
+/* Education.css */
+
+.education-container {
+  padding-top: 50px;
+}
+
+.education-item {
+  margin-bottom: 35px;
+  background: #80808030;
+  padding: 26px;
+  border-radius: 40px;
+}
+
+.education-time h2 {
+  margin-bottom: 10px;
+}
+
+.education-time h3 {
+  margin-bottom: 0;
+}
+
+.title {
+  margin-bottom: 5px;
+}
+
+.description {
+  color: #777;
+}

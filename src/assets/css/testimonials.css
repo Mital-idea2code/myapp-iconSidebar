@@ -1,0 +1,103 @@
+/* Slider.css */
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  outline: none;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  line-height: 1;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: #333;
+  outline: none;
+}
+.testimmonial-cardBody {
+  background-color: #00b4d9de;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #00b4d999;
+  margin: 10px;
+  color: white;
+}
+.testimonial-card {
+  background-color: #00b4d92e !important;
+  border-radius: 8px;
+  margin: 20px;
+  color: white !important;
+  box-shadow: 0 0px 13px rgb(0 0 0 / 51%);
+}
+.text-muted {
+  color: white !important;
+}
+.card-title {
+  font-weight: bold !important;
+}
+.card-text {
+  font-size: 20px !important;
+}
+.slick-dots li button:before {
+  font-size: 12px !important;
+}

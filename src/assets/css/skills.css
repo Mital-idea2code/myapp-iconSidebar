@@ -1,0 +1,30 @@
+/* skills.css */
+
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.skill-item p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.progressBar {
+  height: 20px;
+  font-size: 14px;
+}
+.CircularProgressbar {
+  width: 80% !important;
+}
+.skill-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+.skills {
+  background: #80808026;
+}
+@media (max-width: 991px) {
+  .CircularProgressbar {
+    width: 50% !important;
+  }
+}
