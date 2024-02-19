@@ -12,6 +12,7 @@ import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import RightSideButtons from "./components/RightSideButtons";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/header.css";
 
@@ -21,7 +22,9 @@ function App() {
       <Container fluid>
         <Row className="no-gutters">
           <Col md={12} lg={12} className="p-0">
+            <Header />
             <Home />
+            <ScrollToTopButton />
             <About />
             <Skills />
             <WorkExperience />

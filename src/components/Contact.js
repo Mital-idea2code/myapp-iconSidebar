@@ -30,7 +30,7 @@ const Contact = () => {
                         <Form.Control as="textarea" rows={4} placeholder="Your Message" />
                       </Form.Group>
 
-                      <Button className="theme-btn">SEND MESSAGE</Button>
+                      <Button className="theme-btn br-5 ">SEND MESSAGE</Button>
                     </Form>
                   </Col>
                   <Col md={6}>

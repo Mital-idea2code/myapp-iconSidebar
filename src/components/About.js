@@ -7,7 +7,7 @@ import ProfilePic from "../assets/images/profile.jpg";
 
 const About = () => {
   return (
-    <section id="about-me" className="py-5 animated">
+    <section id="about-me" className="py-5">
       <Container>
         <h2 className="text-center mb-4 textContainer">
           <span className="borderEffect">About Me</span>
