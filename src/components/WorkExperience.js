@@ -86,7 +86,7 @@ const ExperienceItem = ({ data }) => (
 
 const WorkExperience = () => {
   return (
-    <section id="experience_education" className="py-5 animated">
+    <section id="experience_education" className="py-5 animated" data-aos="fade-up">
       <Container>
         <Row>
           <Col lg={5}>

@@ -42,7 +42,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="py-5 animated">
+    <section id="portfolio" className="py-5 animated" data-aos="fade-up">
       <Container className="portfolio-container">
         <h2 className="text-center mb-4 textContainer">
           <span className="borderEffect">Portfolio</span>

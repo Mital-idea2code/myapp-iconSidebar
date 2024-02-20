@@ -13,7 +13,7 @@ function Home() {
           <h1 className="text-center text-white headname_style"> Janny Stanbridge</h1>
           <p className="lead text-center text-white lead-font">Frontend Web Developer and Graphics Designer</p>
           {/* Social Media Links */}
-          <div className="social-links text-center">
+          <div className="social-links text-center" data-aos="fade-up">
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="social-icon" />
             </a>

@@ -15,7 +15,7 @@ const About = () => {
         <Row>
           {/* Left side - User image */}
           <Col lg={6}>
-            <div className="about-me-text">
+            <div className="about-me-text" data-aos="flip-left">
               <p>
                 <b>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -58,7 +58,7 @@ const About = () => {
           </Col>
           {/* Right side - User description */}
           <Col lg={6} className="mb-4">
-            <div className="user-image-container">
+            <div className="user-image-container" data-aos="flip-left">
               <img src={ProfilePic} alt="User" className="img-fluid" />
             </div>
           </Col>

@@ -6,7 +6,7 @@ import { FaEnvelope, FaMapMarker, FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-5 animated">
+    <section id="contact" className="py-5 animated" data-aos="fade-up">
       <Container>
         <h2 className="text-center mb-4 textContainer">
           <span className="borderEffect">Contact Me</span>

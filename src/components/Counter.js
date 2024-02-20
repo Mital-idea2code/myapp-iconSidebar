@@ -6,7 +6,7 @@ import "../assets/css/counter.css";
 
 const Counter = () => {
   return (
-    <section className="py-5 counterbg animated">
+    <section className="py-5 counterbg animated" data-aos="fade-right">
       <Container className="counter-container">
         <Row className="counters">
           <Col lg={3} md={6} sm={12}>
